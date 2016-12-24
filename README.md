@@ -9,7 +9,7 @@ updates gems and installs some required gems for rake
 restores nuget packages from the configs
 builds the source with rake
 
-@echo off
+`@echo off
 SET DIR=%~dp0%
 @PowerShell -NoProfile -ExecutionPolicy unrestricted -Command "& '%DIR%setup.ps1' %*"
-pause
+pause`
